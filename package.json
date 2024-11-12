@@ -1,0 +1,33 @@
+{
+  "name": "ai-chatbox-service",
+  "version": "0.0.1",
+  "description": "ai chatbot with different personalities for different people",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "AI",
+    "chat",
+    "human",
+    "friend"
+  ],
+  "author": "Victor \"Good giant\" Akiti",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  }
+}
